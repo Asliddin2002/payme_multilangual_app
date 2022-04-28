@@ -1,0 +1,89 @@
+.navbar{
+
+    box-shadow: 5px 0 10px rgba($color: #000000, $alpha: .2);
+    background-color:#fff;
+    .main{
+        // display:flex;
+        // align-items: center;
+        // justify-content: space-between;
+        img{
+            width: 120px;
+            height: 35px;
+        }
+        .navbar-toggler-icon{
+            color:#666;
+        }
+        ul{
+            .active{color:#33CCCC;
+                i{
+                    color:#33CCCC;
+                    transition: all .4s ease;
+                }
+                a{
+                    color:#33CCCC;
+                    transition: all .4s ease;
+                }
+            }
+            li{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor:pointer;
+                transition: all .5s ease;
+                &:hover i{
+                    color:#33CCCC;
+                    transition: all .5s ease;
+                }
+                &:hover a{
+                    color:#33CCCC;
+                    transition: all .5s ease;
+                }
+                i{
+                    font-size: 25px;
+                    color:rgb(62, 36, 36);
+                }
+                cursor: pointer;
+                a{font-size: 17px;
+                    color:#444;
+                    margin-left: 10px;
+                    // &:hover {
+                        
+                    //     color:#33CCCC;
+                    // }
+                }
+            }
+        }
+        .btn-v{
+            border-radius: 10px;
+            background-color: #9B62DA;
+            color: #fff;
+            outline: none;
+            margin-left: 2rem;
+        }
+    }
+}
+
+
+
+@media (max-width:500px){
+    .navbar{
+        .navbar-brand{
+            width: 90px;
+        }
+        overflow-x: hidden;
+        .main{
+            img{
+                width: 100px;
+                height: 30px;
+            }
+            .navbar-toggler-icon{
+                color:#666;
+            }
+            
+            
+        }
+    }
+}
+
+
+

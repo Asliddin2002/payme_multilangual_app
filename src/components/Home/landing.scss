@@ -1,0 +1,185 @@
+.landing{
+
+    padding-top: 5rem;
+}
+.container{
+    max-width: 1140px;
+    
+    // lay:flex;
+    // align-items: center;
+    // justify-content: center;
+    .contact{
+        .info{
+            font-size: 15px;
+            margin: 10px 0;
+            padding: 0;
+            font-weight: 450;
+            color: #666;
+        }
+        .title{
+            color:#444;
+            font-size: 40px;
+            margin-bottom: 3rem;
+        }
+        .inputes{
+            
+            display:flex;
+            width:100%;
+            position: relative;
+            label{
+                font-size: 14px;
+                padding-bottom: 10px;
+            }
+            .code{
+                width: 14%;
+                padding: 12px 15px;
+                font-size: 20px;
+                outline: none;
+                border-right: none;
+                position: absolute;
+                // left: -50px;
+                border-radius:10px;
+            }
+            .number{
+                width:80%;
+                padding: 12px 10px;
+                padding-left: 80px;
+                font-size: 20px;
+                border:.1px solid rgb(128, 128, 128, .5);
+                outline: none;
+                border-left: none;
+                border-radius: 10px;
+
+            }
+        }
+        .mobile-app{
+            width: 100%;
+            margin-top: 2.5rem;
+
+            .app{
+                // width: 0%;
+                margin-right: 15px;
+                cursor: pointer;
+                transition: all .5s ease;
+                &:hover .icon 
+                {
+                    transition: all .5s ease;
+                    color:#33CCCC;
+                }
+                &:hover .little 
+                {
+                    transition: all .5s ease;
+                    color:#33CCCC;
+                }
+                &:hover .big 
+                {
+                    transition: all .5s ease;
+                    color:#33CCCC !important;
+                }
+                .icon{
+                    font-size: 1.9rem;
+                    color:#444;
+                }
+                .app-info{
+                    padding: 3px 0;
+                    display:flex;
+                    flex-direction: column;
+                    .little{
+                        font-size: 9px;
+                        // margin-top: auto;
+                    }
+                    .big{
+                        font-size: 15px;
+                        // margin-bottom: auto;
+                        font-weight: 500;
+                        color:#666;
+                    }
+                    p{
+                    padding: 0;
+                    margin: 0;
+                }
+                }
+            }
+        }
+    }
+    // .image-wrapper{
+        
+    //     // .image{
+    //     //     width: fit-content;
+    //     // }
+    // }
+}
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .number{
+        padding-left: 150px;
+    }
+    .image-wrapper{
+        display: none;
+    }
+    
+}
+
+@media(max-width:500px){
+    .container{
+        
+        .contact{
+            
+            .title{
+                font-size: 30px;
+            }
+            .inputes{
+                .code{
+                    width: 20%;
+                }
+                .number{
+                    width:100%;
+                }
+            }
+            .mobile-app{
+                margin-top: 3rem;
+    
+                .app{
+                    // width: 0%;
+                    margin-right: 15px;
+                    .icon{
+                        font-size: 1.8rem;
+                        color:#444;
+                    }
+                    .app-info{
+                        padding: 3px 0;
+                        display:flex;
+                        flex-direction: column;
+                        .little{
+                            font-size: 8px;
+                            // margin-top: auto;
+                        }
+                        .big{
+                            font-size: 13px;
+                            // margin-bottom: auto;
+                            font-weight: 500;
+                            color:#666;
+                        }
+                        p{
+                        padding: 0;
+                        margin: 0;
+                    }
+                    }
+                }
+            }
+        }
+        // .image-wrapper{
+            
+        //     // .image{
+        //     //     width: fit-content;
+        //     // }
+        // }
+    }
+}

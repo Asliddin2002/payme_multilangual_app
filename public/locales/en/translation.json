@@ -1,0 +1,64 @@
+{
+    "Navbar":{
+        "Transfer":"Transfers",
+        "Payments": "Payments",
+        "Help": "Help",
+        "Language":"Language",
+        "Vacancy": "Vacancy"
+    },
+    "Landing":{
+        "login":"Log in and registration",
+        "phone":"Phone number",
+        "phone2":"Single authorization and registration"
+    },
+    "Peer": {
+        "title":"Peer-to-peer transfer",
+        "commession":"Commission",
+        "banks": "Banks available for financial transfer",
+        "label": "Enter amount of finacial transfer",
+        "label2": "Enter sender’s debit card number",
+        "transfer":"Transfer"
+    },
+    "PaymentCard":{
+        "title":"Payme Card online wallet",
+        "info":"Payme Card is a modern payment tool that helps you to use conveniently and safely the capabilities of the Payme service to pay for goods and services, and make transfers.",
+        "more": "More"
+    },
+    "PaymentForMobile":{
+        "title":"Payments for mobile operator services",
+        "sub":"Any card online",
+        "label": "Amount of payment",
+        "pay":"Pay"
+    },
+    "Other":{
+        "title":"State and municipal services",
+        "sub": "Payments for electricity, gas, landline phone and much more",
+        "card1":"Payment for taxes",
+        "card2": "Payment for electricity",
+        "card3": "Payment for state Automobile Inspection department fees",
+        "btn1":"The whole List"
+    },
+    "Loan":{
+        "title":"Payments",
+        "sub": "Fast and convenient",
+        "banks": "All banks",
+        "categ": "Categories",
+        "categBtn": "All categories",
+        "card1":"Internet Service Provider",
+        "card2": "Tv and Online BroadCasting",
+        "card3": "Insurance Service",
+        "card4": "Game and Social Networking",
+        "card5": "Airway and Railway tickets",
+        "title2": "Download mobile application and get more features"
+    },
+    "Payment": {
+        "title":"Payment",
+        "sub": "Payment by any debt card online"
+    },
+    "Footer": {
+        "title":"BUSINESS",
+        "sub": "Online Cash Box for Business",
+        "info": "Ready-made solutions for accepting payments, online store and much more",
+        "btn": "Go to the website"
+    }
+}

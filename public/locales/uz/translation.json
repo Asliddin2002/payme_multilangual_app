@@ -1,0 +1,64 @@
+{
+    "Navbar":{
+        "Transfer":"O`tkazmalar",
+        "Payments": "To`lovlar",
+        "Help": "Aloqa",
+        "Language":"Til",
+        "Vacancy": "Ish o`rin"
+    },
+    "Landing":{
+        "login":"Ro`yxatdan o`tish",
+        "phone":"Telifon raqam",
+        "phone2":"Yagona avtorizatsiya va ro'yxatdan o'tish"
+    },
+    "Peer": {
+        "title":"Mablag` o`tkazish",
+        "commession":"Kommissiya",
+        "banks": "O`tkazmalar uchun mavjud banklar",
+        "label": "Moliyaviy o`tkazma summasini kiriting",
+        "label2": "Yuboruvchining debet karta raqamini kiriting",
+        "transfer":"O`tkazish"
+    },
+    "PaymentCard":{
+        "title":"Payme online hamyon",
+        "info":"Payme Card – tovar va xizmatlar uchun to‘lovlarni amalga oshirish, pul o‘tkazmalarini amalga oshirish uchun Payme xizmati imkoniyatlaridan qulay va xavfsiz foydalanishga yordam beruvchi zamonaviy to‘lov vositasi.",
+        "more": "Ko`proq"
+    },
+    "PaymentForMobile":{
+        "title":"Mobil operator xizmatlari uchun to'lovlar",
+        "sub":"Har qanday karta onlane",
+        "label": "To`lov miqdori",
+        "pay":"To`lash"
+    },
+    "Other":{
+        "title":"Davlat va kommunal xizmatlar",
+        "sub": "Elektr, gaz, shahar telefoni va boshqalar uchun to'lovlar",
+        "card1":"Soliqlar",
+        "card2": "Elektr uchun to'lov",
+        "card3": "Davlat avtomobil inspektsiyasi bo'limi yig'imlarini to'lash",
+        "btn1":"Barchasi"
+    },
+    "Loan":{
+        "title":"To`lovlar",
+        "sub": "Tez va qulay",
+        "banks": "Barchasi",
+        "categ": "Kategoriyalar",
+        "categBtn": "Barchasi",
+        "card1":"Internet provayderi",
+        "card2": "Televizion va onlayn translyatsiya",
+        "card3": "Sug'urta xizmati",
+        "card4": "O'yin va ijtimoiy tarmoqlar",
+        "card5": "Havo va temir yo'l chiptalari",
+        "title2": "Mobil ilovani yuklab oling va ko'proq imkoniyatlarga ega bo'ling"
+    },
+    "Payment": {
+        "title":"To`lov",
+        "sub": "Istalgan debt karta orqali online to`lov"
+    },
+    "Footer": {
+        "title":"BUSINESS",
+        "sub": "Biznes uchun onlayn kassa",
+        "info": "To'lovlarni qabul qilish uchun tayyor yechimlar, onlayn-do'kon va boshqalar",
+        "btn": "Veb-saytga o'tish"
+    }   
+}
